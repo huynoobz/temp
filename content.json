@@ -2,13 +2,13 @@
   "h1": {
     "title": "This is h1.",
     "p1": "Welcome to the main page! This is a sample paragraph under h1.",
-    "img1": "https://png.pngtree.com/png-clipart/20230821/original/pngtree-haha-isolated-text-flat-icon-picture-image_8137073.png",
+    "img1": "https://github.com/huynoobz/temp/blob/main/dish1.jpg",
     "p2": "This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1.",
     "p3": "This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1."
   },
   "h2": {
     "title": "This is h2.",
     "p1": "This is another section with its own paragraph.",
-    "img1": "https://play-lh.googleusercontent.com/oA-7YjynaM2zvnv8dtKiLkcens4WP7ZbIB3hOmM3zN0VIwX4hu4SZ6WeiR4wetL3b88"
+    "img1": "https://github.com/huynoobz/temp/blob/main/dish2.jpg"
   }
 }
