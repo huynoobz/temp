@@ -2,13 +2,13 @@
   "h1": {
     "title": "This is h1.",
     "p1": "Welcome to the main page! This is a sample paragraph under h1.",
-    "img1": "https://github.com/huynoobz/temp/blob/main/dish1.jpg?raw=true",
+    "img1": "https://raw.githubusercontent.com/huynoobz/temp/refs/heads/main/dish1.jpg",
     "p2": "This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1.",
     "p3": "This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1. This is another paragraph under h1."
   },
   "h2": {
     "title": "This is h2.",
     "p1": "This is another section with its own paragraph.",
-    "img1": "https://github.com/huynoobz/temp/blob/main/dish2.jpg?raw=true"
+    "img1": "https://raw.githubusercontent.com/huynoobz/temp/refs/heads/main/dish2.jpg"
   }
 }
